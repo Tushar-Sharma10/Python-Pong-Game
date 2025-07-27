@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a869a66-7721-4515-b1ed-bdc0272d8571" name="Changes" comment="Set up the main screen">
+    <list default="true" id="4a869a66-7721-4515-b1ed-bdc0272d8571" name="Changes" comment="Add Ball class with movement and bounce logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Tushar-Sharma10"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tushar-Sharma10/Python-Pong-Game.git",
+    "accountId": "505aee88-2e4f-473b-9159-3a7c68508c09"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -36,8 +50,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ball.executor": "Run",
     "Python.main.executor": "Run",
     "Python.paddle.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -79,11 +95,38 @@
       <option name="project" value="LOCAL" />
       <updated>1753557577741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Paddle class with up and down movement methods">
+      <option name="closed" value="true" />
+      <created>1753582322748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753582322748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialize paddle objects and assign keyboard listeners">
+      <option name="closed" value="true" />
+      <created>1753582436810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753582436810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Ball class with movement and bounce logic">
+      <option name="closed" value="true" />
+      <created>1753626963215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753626963215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up the main screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up the main screen" />
+    <MESSAGE value="Add Paddle class with up and down movement methods" />
+    <MESSAGE value="Initialize paddle objects and assign keyboard listeners" />
+    <MESSAGE value="Add Ball class with movement and bounce logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ball class with movement and bounce logic" />
   </component>
 </project>
