@@ -1,3 +1,4 @@
+import random
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
@@ -26,14 +27,23 @@ screen.onkey(r_paddle.go_up, "Up")
 screen.onkey(r_paddle.go_down,"Down")
 
 # LEFT PADDLE LISTENERS
-screen.onkey(l_paddle.go_up, "w")
-screen.onkey(l_paddle.go_down,"s")
+# screen.onkey(l_paddle.go_up, "w")
+# screen.onkey(l_paddle.go_down,"s")
 
 is_game_on = True
 while is_game_on:
     time.sleep(ball.move_speed)
     screen.update()
     ball.move()
+
+
+# AI paddle movement: only reacts if ball is nearby, on left side, and passes a 50% chance.
+    if ball.xcor() < 0 and abs(ball.ycor() - l_paddle.ycor()) > 20:
+        if random.random() > 0.5:
+            if ball.ycor() > l_paddle.ycor():
+                l_paddle.go_up()
+            else:
+                l_paddle.go_down()
 
     if ball.ycor() >= 280 or ball.ycor() <= -280:
         ball.bounce_y()
