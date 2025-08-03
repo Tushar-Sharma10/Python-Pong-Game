@@ -24,8 +24,9 @@ class ScoreBoard(Turtle):
 
     def r_point(self):
         self.r_score += 1
-        self.highscore += 1
-        self.write_high_score()
+        if self.r_score > self.highscore:
+            self.highscore = self.r_score
+            self.write_high_score()
         self.update_score()
 
     def read_high_score(self):
