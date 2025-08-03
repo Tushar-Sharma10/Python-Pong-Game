@@ -2,8 +2,8 @@ from turtle import Screen
 from paddle import Paddle
 from ball import Ball
 from scoreboard import ScoreBoard
+from sound import SoundEffects
 import time
-
 
 # SET UP THE MAIN SCREEN
 screen = Screen()
@@ -16,10 +16,9 @@ screen.bgcolor("Black")
 r_paddle = Paddle((350,0))
 l_paddle = Paddle((-350,0))
 
-
 ball = Ball()
 scoreboard = ScoreBoard()
-
+sound = SoundEffects()
 
 screen.listen()
 #RIGHT PADDLE LISTENERS
@@ -41,15 +40,18 @@ while is_game_on:
 
     if ball.distance(r_paddle) < 50 and ball.xcor() > 330 :
         ball.bounce_x()
+        sound.play_collision()
 
     elif ball.distance(l_paddle) < 50 and ball.xcor() < -330:
         ball.bounce_x()
+        sound.play_collision()
 
     if ball.xcor() > 370:
         ball.reset_game()
         scoreboard.l_point()
 
     if ball.xcor() < -370:
+        sound.score_effect()
         ball.reset_game()
         scoreboard.r_point()
 

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a869a66-7721-4515-b1ed-bdc0272d8571" name="Changes" comment="Add screenshot of Pong game for README">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a869a66-7721-4515-b1ed-bdc0272d8571" name="Changes" comment="Add SoundEffects class to manage game audio using pygame mixer">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,8 +152,35 @@
       <option name="project" value="LOCAL" />
       <updated>1753660597485</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add SoundEffects class to manage game audio using pygame mixer">
+      <option name="closed" value="true" />
+      <created>1754166544953</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754166544953</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add SoundEffects class to manage game audio using pygame mixer">
+      <option name="closed" value="true" />
+      <created>1754166618408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754166618408</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up the main screen" />
@@ -163,16 +190,7 @@
     <MESSAGE value="Add ScoreBoard class for displaying and updating player scores" />
     <MESSAGE value="finalize project structure and complete all game features" />
     <MESSAGE value="Add screenshot of Pong game for README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add screenshot of Pong game for README" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scoreboard.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add SoundEffects class to manage game audio using pygame mixer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SoundEffects class to manage game audio using pygame mixer" />
   </component>
 </project>
