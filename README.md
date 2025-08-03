@@ -1,28 +1,37 @@
 # 🕹️ Pong Game (Python Turtle)
 
-This is a fully functional Pong game built using Python’s built-in Turtle graphics module.
-Two players control paddles on each side of the screen and try to bounce the ball past the opponent to score points.
-The game tracks and displays the score for both players in real-time.
+This is a fully functional and enhanced **Pong game** built using Python’s built-in **Turtle graphics** module.  
+A **human player** (right paddle) competes against an **AI-controlled** left paddle. The game features dynamic scoring,
+  **high score tracking**, **sound effects**, and engaging **start and end screens**.
 
 ## 🚀 Features
-- Two-player paddle controls (W/S for left, ↑/↓ for right)
-- Ball movement with wall and paddle collision detection
-- Dynamic score tracking with an on-screen scoreboard
-- Game resets when a point is scored
-- Object-oriented design using multiple Python classes
+
+- ✅ **Single-player mode** with basic AI opponent  
+- ✅ Real-time **ball movement** with wall and paddle **collision detection**  
+- ✅ Dynamic **score tracking** with on-screen **scoreboard**  
+- ✅ **Persistent high score** tracking  
+- ✅ **Start screen** with game instructions and ASCII splash art  
+- ✅ **End screen** with **winner announcement** and game summary  
+- ✅ **Sound effects** on collisions and scoring  
+- ✅ **Modular, object-oriented** Python codebase  
 
 ## 📁 Project Structure
 PongGame/
 
-├── main.py # Main game loop and screen setup
+├── main.py # Main game logic and loop
 
-├── paddle.py # Paddle class for left and right player paddles
+├── paddle.py # Paddle class for player and AI paddle
 
 ├── ball.py # Ball class for movement, collision, and reset logic
 
-├── scoreboard.py # ScoreBoard class for tracking and displaying scores
+├── scoreboard.py # ScoreBoard class for tracking scores and high score
+
+├── screen_setup.py # Start and end screen drawing logic
+
+├── sound.py # SoundEffects class for collision and scoring sounds
 
 └── README.md # Project documentation (you are here)
+
 
 ## 🧰 Technologies Used
 - Python 3
@@ -30,9 +39,8 @@ PongGame/
 
 ## 🎮 Controls
 
-### Left Paddle
-- Move Up: `W`
-- Move Down: `S`
+###  AI (**Left Paddle**)
+- Automatically controlled with random decision-making for realism
 
 ### Right Paddle
 - Move Up: `Up Arrow (↑)`
@@ -48,10 +56,12 @@ PongGame/
 
 ![Game Screenshot](screenshot.png)
 
-## 🚀 Future Improvements
+## Completed Improvements
+1.) Added sound effects for scoring and collisions
 
-- 🔊 Add sound effects for scoring and collisions  
-- 🧠 Implement a single-player mode with AI  
-- 🖥️ Create a start screen and end screen with winner display  
-- 🏆 Track high scores or match history  
+2.) Implemented AI-controlled paddle for single-player mode
+
+3.) Created start and end screens with winner announcement
+
+4.) High score tracking and display
 
